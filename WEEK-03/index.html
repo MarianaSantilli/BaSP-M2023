@@ -14,40 +14,38 @@
         </header>
         <aside>
             <nav>
-                <div>
-                    <a href="#">
-                        <img src="assets/img/home-button.png" alt="home icon">
-                        Home
-                    </a>
-                    <a href="#">
-                        <img src="assets/img/sign-up.png" alt="Sign up">
-                        Sign Up
-                    </a>
-                    <a href="#">
-                        <img src="assets/img/sign-in.png" alt="Sign in">
-                        Sign In
-                    </a>
-                </div>
+                <a href="#">
+                    <img src="assets/img/home-button.png" alt="home icon">
+                    Home
+                </a>
+                <a href="#">
+                    <img src="assets/img/sign-up.png" alt="Sign up">
+                    Sign Up
+                </a>
+                <a href="#">
+                    <img src="assets/img/sign-in.png" alt="Sign in">
+                    Sign In
+                </a>
             </nav>
-            <div>
+            <div class="contact-information">
                 <h2>
                     Contact Information
                 </h2>
                 <ul>
-                    <li>
-                        <img src="assets/img/mail-icon.png" alt="mail icon">infromation@untitled.tld
+                    <li class="email-information">
+                        <img src="assets/img/mail-icon.svg" alt="mail icon">infromation@untitled.tld
                     </li>
                     <li>
-                        <img src="assets/img/phone-icon.png" alt="phone icon">(000)000-000
+                        <img src="assets/img/phone-icon.svg" alt="phone icon">(000)000-000
                     </li>
                     <li>
-                        <img src="assets/img/home-icon.png" alt="home icon">1234 Somewhere Road #8254 Nashville, TN
+                        <img src="assets/img/home-icon.svg" alt="home icon">1234 Somewhere Road #8254 Nashville, TN
                     </li>
                 </ul>
             </div>
         </aside>
         <main>
-            <section>
+            <section class="welcome-web">
                 <h1>
                     Mega Rocket Web
                 </h1>
@@ -62,11 +60,11 @@
                 </p>
                 <img src="assets/img/gym-picture.png" alt="picture gym">
             </section>
-            <section>
+            <section class="features">
                 <h2>
                     Features
                 </h2>
-                <article>
+                <article class="features-one">
                     <img src="assets/img/calendar-icon.png" alt="calendar icon">
                     <h3>
                         Shift Reservations
@@ -76,7 +74,7 @@
                         Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
                 </article>
-                <article>
+                <article class="features-two">
                     <img src="assets/img/note-icon.jpg" alt="note icon">
                     <h3>
                         Membership Management
@@ -86,7 +84,7 @@
                         Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
                 </article>
-                <article>
+                <article class="features-three">
                     <img src="assets/img/schedules-icon.jpg" alt="schedules icon">
                     <h3>
                         Scheduling & opening hours
@@ -96,7 +94,7 @@
                         Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
                 </article>
-                <article>
+                <article class="features-four">
                     <img src="assets/img/contact-icon.jpg" alt="contact icon">
                     <h3>
                         Contact form & suggestions
@@ -107,11 +105,11 @@
                     </p>
                 </article>
             </section>
-            <section>
+            <section class="about-megarocket">
                 <h2>
                     About Mega Rocket
                 </h2>
-                <article>
+                <article class="about-one">
                     <img src="assets/img/gym-weigth-room-png.png" alt="Weigth Room Photo">
                     <p>
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum.
@@ -121,7 +119,7 @@
                         Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
                     </p>
                 </article>
-                <article>
+                <article class="about-two">
                     <p>
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum.
                         Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
@@ -130,32 +128,32 @@
                     <img src="assets/img/gym-treadmills.png" alt="Treadmills photo">
                 </article>
             </section>
-            <section>
+            <section class="get-in-touch">
                 <h2>
                     Get in touch
                 </h2>
                 <form action="form_submit.php" method="post">
-                    <div>
-                        <label for="First Name">
+                    <div class="first-name">
+                        <label for="first-name">
                             First Name
                         </label>
                         <input id="First Name"placeholder="Enter name" type="text">
                     </div>
-                    <div>
-                        <label for="Last Name">
+                    <div class="last-name">
+                        <label for="last-name">
                             Last Name
                         </label>
                         <input id="Last Name"placeholder="Enter last name" type="text">
                     </div>
-                    <div>
-                        <label for="Email adress">
+                    <div class="email-adress">
+                        <label for="email-adress">
                             Email adress
                         </label>
                         <input id="Email adress" placeholder="Enter adress" type="text">
                     </div>
-                    <input type="submit" value="Submit">
-                    <div>
-                        <label for="Contact reason">
+                    <input class="submit-btn" type="submit" value="Submit">
+                    <div class="contact-reason">
+                        <label for="contact-reason">
                             Contact reason
                         </label>
                         <select name="Contact reason" id="Contact reason">
@@ -173,7 +171,7 @@
                             </option>
                         </select>
                     </div>
-                    <div>
+                    <div class="message">
                         <label for="Message">
                             Message
                         </label>
@@ -183,7 +181,7 @@
                     </div>
                 </form>
             </section>
-            <section>
+            <section class="gym-activities">
                 <h2>
                     Gym Activities
                 </h2>
@@ -206,7 +204,7 @@
                 </ul>
                 <img src="assets/img/wide-angle-photo.png" alt="gym widht angle photo">
             </section>
-            <section>
+            <section class="memberships">
                 <h2>
                     Memberships
                 </h2>
