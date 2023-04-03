@@ -46,29 +46,31 @@
         </aside>
         <main>
             <section class="welcome-web">
-                <h1>
-                    Mega Rocket Web
-                </h1>
-                <h2>
-                    Welcome
-                </h2>
-                <p>
-                    Mega Rocket Web is a monthly management system for member and
-                </p>
-                <p>
-                    trainers so that they can dinamically sign up for their activities in the gym
-                </p>
-                <img src="assets/img/gym-picture.png" alt="picture gym">
+                <article class="welcome-one">
+                    <h1>
+                        Mega Rocket Web
+                    </h1>
+                    <h2>
+                        Welcome
+                    </h2>
+                    <p>
+                        Mega Rocket Web is a monthly management system for member and
+                        trainers so that they can dinamically sign up for their activities in the gym
+                    </p>
+                </article>
+                <div class="welcome-two">
+                    <img src="assets/img/gym-picture.png" alt="picture gym">
+                </div>
             </section>
             <section class="features">
                 <h2>
                     Features
                 </h2>
                 <article class="features-one">
-                    <img src="assets/img/calendar-icon.png" alt="calendar icon">
-                    <h3>
-                        Shift Reservations
-                    </h3>
+                        <img src="assets/img/calendar-icon.png" alt="calendar icon">
+                        <h3>
+                            Shift Reservations
+                        </h3>
                     <p>
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                         Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
@@ -110,7 +112,7 @@
                     About Mega Rocket
                 </h2>
                 <article class="about-one">
-                    <img src="assets/img/gym-weigth-room-png.png" alt="Weigth Room Photo">
+                        <img src="assets/img/gym-weigth-room-png.png" alt="Weigth Room Photo">
                     <p>
                         Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum.
                         Sed nulla amet lorem feugiat tempus aliquam. Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
@@ -133,51 +135,57 @@
                     Get in touch
                 </h2>
                 <form action="form_submit.php" method="post">
-                    <div class="first-name">
-                        <label for="first-name">
-                            First Name
-                        </label>
-                        <input id="First Name"placeholder="Enter name" type="text">
+                    <div class="personal-information">
+                        <div class="first-name">
+                            <label for="first-name">
+                                First Name
+                            </label>
+                            <input id="First Name"placeholder="Enter name" type="text">
+                        </div>
+                        <div class="last-name">
+                            <label for="last-name">
+                                Last Name
+                            </label>
+                            <input id="Last Name"placeholder="Enter last name" type="text">
+                        </div>
+                        <div class="email-adress">
+                            <label for="email-adress">
+                                Email adress
+                            </label>
+                            <input id="Email adress" placeholder="Enter adress" type="text">
+                        </div>
+                        <div class="submit-btn">
+                            <input type="submit" value="Submit">
+                        </div>
                     </div>
-                    <div class="last-name">
-                        <label for="last-name">
-                            Last Name
-                        </label>
-                        <input id="Last Name"placeholder="Enter last name" type="text">
-                    </div>
-                    <div class="email-adress">
-                        <label for="email-adress">
-                            Email adress
-                        </label>
-                        <input id="Email adress" placeholder="Enter adress" type="text">
-                    </div>
-                    <input class="submit-btn" type="submit" value="Submit">
-                    <div class="contact-reason">
-                        <label for="contact-reason">
-                            Contact reason
-                        </label>
-                        <select name="Contact reason" id="Contact reason">
-                            <option value=" Contact reason" disabled selected hidden>
+                    <div class="contact-us">
+                        <div class="contact-reason">
+                            <label for="contact-reason">
                                 Contact reason
-                            </option>
-                            <option value="I want to make a claim">
-                                I want to make a claim
-                            </option>
-                            <option value="I want to realize a query or suggestion">
-                                I want to realize a query or suggestion
-                            </option>
-                            <option value="I want to know de memberships and costs">
-                                I want to know de memberships and costs
-                            </option>
-                        </select>
-                    </div>
-                    <div class="message">
-                        <label for="Message">
-                            Message
-                        </label>
-                        <textarea name="Enter your message" id="" cols="30" rows="10">
-                            Enter your message
-                        </textarea>
+                            </label>
+                            <select name="Contact reason" id="Contact reason">
+                                <option value=" Contact reason" disabled selected hidden>
+                                    Contact reason
+                                </option>
+                                <option value="I want to make a claim">
+                                    I want to make a claim
+                                </option>
+                                <option value="I want to realize a query or suggestion">
+                                    I want to realize a query or suggestion
+                                </option>
+                                <option value="I want to know de memberships and costs">
+                                    I want to know de memberships and costs
+                                </option>
+                            </select>
+                        </div>
+                        <div class="message">
+                            <label for="Message">
+                                Message
+                            </label>
+                            <textarea name="Enter your message" id="" cols="30" rows="10">
+                                Enter your message
+                            </textarea>
+                        </div>
                     </div>
                 </form>
             </section>
@@ -185,24 +193,26 @@
                 <h2>
                     Gym Activities
                 </h2>
-                <ul>
-                    <li>
-                        Crossfit
-                    </li>
-                    <li>
-                        Spinning
-                    </li>
-                    <li>
-                        Functional
-                    </li>
-                    <li>
-                        Fitness
-                    </li>
-                    <li>
-                        Boxing
-                    </li>
-                </ul>
-                <img src="assets/img/wide-angle-photo.png" alt="gym widht angle photo">
+                <div class="activities">
+                    <ul>
+                        <li>
+                            Crossfit
+                        </li>
+                        <li>
+                            Spinning
+                        </li>
+                        <li>
+                            Functional
+                        </li>
+                        <li>
+                            Fitness
+                        </li>
+                        <li>
+                            Boxing
+                        </li>
+                    </ul>
+                    <img src="assets/img/wide-angle-photo.png" alt="gym widht angle photo">
+                </div>
             </section>
             <section class="memberships">
                 <h2>
