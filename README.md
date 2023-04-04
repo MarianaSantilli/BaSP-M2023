@@ -19,5 +19,8 @@ I made an HTML document with all the content that appears in the Figma landing, 
 >GitHub: use it to create a public repository and save progress
 
 >Git: I used it to link the folder where I was working with the github repository
+## WEEK 03
+I included the styles corresponding to the HTML structure in order to recreate the Figma landing in desktop view.
+For this purpose I created a CSS file and used the same github repository from week 02 to link my progress.
 ## Author
 Mariana Santilli Maldonado
