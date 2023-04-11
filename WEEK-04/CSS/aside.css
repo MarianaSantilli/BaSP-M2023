@@ -18,7 +18,6 @@
         margin-top: 25%;
         margin-left: 25px;
         margin-right: 25px ;
-    
     }
 
     nav a {
@@ -57,7 +56,5 @@
     .contact-information li {
         margin-top: 20px;
         color: var(--primary-color);
-
     }
-
 }
