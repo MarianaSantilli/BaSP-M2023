@@ -22,5 +22,10 @@ I made an HTML document with all the content that appears in the Figma landing, 
 ## WEEK 03
 I included the styles corresponding to the HTML structure in order to recreate the Figma landing in desktop view.
 For this purpose I created a CSS file and used the same github repository from week 02 to link my progress.
+## WEEK 04
+During this week I replicated the Figma landing page using flexbox with the aim of creating a responsive design following the mobile first concept
+> GitHub Pages: allows me to view the front page online from the Github page
+
+>CSS Flexbox: allows the same content to be adapted for mobile phones, tablets and desktop 
 ## Author
 Mariana Santilli Maldonado
