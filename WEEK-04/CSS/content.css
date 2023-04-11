@@ -1,6 +1,10 @@
 
+.welcome-web {
+    display: flex;
+    flex-direction: column;
+}
 .welcome-one {
-    text-align: center;
+    margin-top: 20px;
 }
 
 .welcome-one h2 {
@@ -9,6 +13,7 @@ display: none;
 
 .welcome-one p {
     font-size: 1em;
+    text-align: center;
 }
 .welcome-two img {
     width: 100%;
@@ -29,6 +34,7 @@ display: none;
 .features img {
     width: 4%;
     margin-right: 10px;
+    margin-left: 20px;
 }
 
 .features p {
@@ -94,13 +100,16 @@ form select {
     border-radius: 5px;
 }
 
+.submit-left {
+    display: none;
+}
 .submit-btn {
     margin-top: 18px;
     display: flex;
     justify-content: end;
 }
- .submit-btn input {
-    width: 20%;
+ .submit-btn input, .submit-left input {
+    width: 90px;
     border: 1px solid #AACE9B;
     border-radius: 5px;
     background-color: #AACE9B;
@@ -135,14 +144,19 @@ form select {
 .member-table {
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
-.memberships th {
+.memberships-th {
     padding: 10px;
-    width: 100%;
+    width: 21%;
     font-size: 0.7em;
     font-weight: bold;
     color: var(--primary-color);
+}
+
+.th {
+    width: 35%;
 }
 
 .table-one {
@@ -154,6 +168,7 @@ form select {
     width: 20px;
     font-size: 0.7em;
     font-weight: bold;
+    text-align: center;
     color: var(--primary-color);
 }
 
@@ -169,9 +184,156 @@ form select {
     width: 20px;
     font-size: 0.7em;
     font-weight: bold;
+    text-align: center;
     color: var(--primary-color);
 }
 
 .table-grey img {
     margin-left: 15px;
+}
+
+@media only screen and (min-width:601px) {
+    .welcome-web {
+       flex-direction: unset;
+    }
+
+    .welcome-one h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #49A37B;
+    }
+    .welcome-one {
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .welcome-one p {
+        margin-top: 10px;
+    }
+    .welcome-two img {
+        width: 100%;
+    }
+
+    .features-article img {
+        width: 8%;
+    }
+
+    .features-article h3 {
+        font-size: 1em;
+    }
+
+    .features-article p {
+        font-size: 0.9em;
+        margin-left: 20px;
+    }
+
+    .right-articles {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .right-articles article {
+        width: 45%;
+        margin-top: 20px;
+    }
+    .about-article-up {
+        flex-direction: unset;
+    }
+    .about-article-up p {
+        margin-left: 30px;
+        text-align: right;
+    }
+
+    .about-article-down {
+        flex-direction: unset;
+    }
+
+    .about-article-down p {
+        margin-right: 30px;
+        text-align: left;
+    }
+    .about-megarocket img {
+        width: 50%;
+    }
+    .about-megarocket p {
+        font-size: 1em;
+    }
+
+    form {
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .personal-information {
+        width: 25%;
+    }
+
+    .contact-us {
+        width: 65%;
+    }
+
+    .submit-btn {
+        display: none;
+    }
+
+    .submit-left {
+        margin-top: 10px;
+    }
+
+    .activities {
+        flex-direction: unset;
+        width: 100%;
+    }
+
+    .activities img {
+        width: 70%;
+    }
+
+    .activities-list {
+        flex-direction: column;
+        width: 30%;
+        margin-top: 10px;
+        font-size: 1em;
+        list-style: inside;
+    }
+
+    .column-activities {
+    display: block;
+    margin-left: 50px;
+}
+
+}
+
+@media only screen and (min-width:1025px) {
+
+    .column-activities {
+        font-size: 1.5em;
+    }
+
+    .member-table  {
+        max-width: 900px;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .table-grey {
+        height: 50px;
+    }
+
+    .table-white {
+        height: 50px;
+    }
+
+    .memberships-th {
+        vertical-align: middle;
+        height: 50px;
+        padding: 0;
+    }
 }
