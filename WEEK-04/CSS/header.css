@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.header img {
+    width: 70%;
+    padding: 10px;
+}

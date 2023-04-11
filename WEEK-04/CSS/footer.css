@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #AACE9B;
+}
+
+
+footer a {
+    padding: 8px;
+    border: none;
+    background-color: #AACE9B;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    display: flex;
+    align-items: end;
+    font-size: 0.7em;
+    color: #FFFFFF;
+}
