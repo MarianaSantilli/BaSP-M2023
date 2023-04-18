@@ -50,3 +50,26 @@ function secondValidation (a, b){
 console.log(secondValidation (42, 22.3))
 
 //Excercise e
+
+function validations (a, b){
+    if(typeof a !== 'number' || typeof b !== 'number' ){
+        alert('One of the parameters is not a number');
+        return NaN
+    }else if(!validateInteger (a) || !validateInteger (b)){
+        alert ('Error');
+        a = Math.round (a);
+        b = Math.round (b);
+    }
+
+}
+
+function suma (firstnumber, secondnumber){
+    var thirdValidation= validations (firstnumber, secondnumber);
+    if(typeof thirdValidation === 'number'){
+        return thirdValidation;
+    }else{
+        return firstnumber + secondnumber;
+    }
+}
+
+console.log(suma (6, 14));
