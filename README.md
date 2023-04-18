@@ -26,6 +26,19 @@ For this purpose I created a CSS file and used the same github repository from w
 During this week I replicated the Figma landing page using flexbox with the aim of creating a responsive design following the mobile first concept
 > GitHub Pages: allows me to view the front page online from the Github page
 
->CSS Flexbox: allows the same content to be adapted for mobile phones, tablets and desktop 
+>CSS Flexbox: allows the same content to be adapted for mobile phones, tablets and desktop
+## WEEK 05
+During week 05 the activities were divided into two blocks:
+- Block 1: JavaScript exercises, which had six sections:
+01. Variables and operators
+02. Strings
+03. Arrays
+04. If/else
+05. For
+06. Functions
+
+- Block 2: on the other hand, considering the feedback from the tutor and assistant on week 04, I implemented the suggested corrections.
+> GitHub Pages and Git:
+I continued using them to link my progress to the repository.
 ## Author
 Mariana Santilli Maldonado
