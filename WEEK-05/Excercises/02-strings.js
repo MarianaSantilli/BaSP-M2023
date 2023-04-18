@@ -9,14 +9,12 @@ var newText= text.substring (0,5);
 console.log(newText);
 
 //excersice c
-var secondText= "Welcome to my website";
+var secondText= 'Welcome to my website';
 var finalText= secondText.substring(18);
 console.log(finalText);
 
 //excercise d
 var thirdText= 'welcome to Radium Rocket';
-var firstletter= thirdText.substring(0,1).toUpperCase();
-var restText= thirdText.substring(1).toLowerCase();
 var result= thirdText.substring(0,1).toUpperCase() + thirdText.substring(1).toLowerCase();
 console.log(result);
 
