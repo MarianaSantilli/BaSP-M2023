@@ -9,7 +9,8 @@ console.log('the total is:' + addition);
 
 var firstName= 'Mariana';
 var gender= 'F';
-console.log('My name is:'+ firstName + 'and my gender is:' + gender);
+var nameAndGender= 'My name is : ' + firstName + ' and my gender is : ' + gender
+console.log(nameAndGender);
 
 //excercise c
 
