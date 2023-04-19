@@ -64,6 +64,17 @@
   font-size: 0.7em;
   text-align: left;
 }
+.about-megarocket button{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  padding: 6px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+}
 
 .get-in-touch {
   padding: 20px;
@@ -264,6 +275,9 @@ form select {
   .about-megarocket p {
     font-size: 1em;
   }
+  .about-megarocket button{
+    display: none;
+  }
 
   form {
     display: flex;
@@ -313,6 +327,13 @@ form select {
 }
 
 @media only screen and (min-width: 1025px) {
+  .features p {
+    font-size: 1em;
+  }
+
+.about-megarocket p {
+  font-size: 1.1em;
+}
   .column-activities {
     font-size: 1.5em;
   }

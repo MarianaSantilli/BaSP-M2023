@@ -1,60 +1,60 @@
 .aside {
-    display: none;
+  display: none;
 }
 
-@media only screen and (min-width:1025px) {
-    .aside {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        position: fixed;
-        margin: 0;
-        width: 313px;
-        height: 100%;
-        background-color: #AACE9B;
-    }
+@media only screen and (min-width: 1025px) {
+  .aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    margin: 0;
+    width: 313px;
+    height: 100%;
+    background-color: #aace9b;
+  }
 
-    nav {
-        margin-top: 25%;
-        margin-left: 25px;
-        margin-right: 25px ;
-    }
+  nav {
+    margin-top: 25%;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 
-    nav a {
-        display: list-item;
-        margin-top: 16px ;
-        padding: 8px;
-        background-color: white;
-        border: 1px solid var(--primary-color);
-        border-radius: 5px;
-        font-weight: bold;
-        text-decoration: none;
-        text-align: center;
-        list-style: none;
-        color: var(--primary-color);
-    }
+  nav a {
+    display: list-item;
+    margin-top: 16px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: var(--primary-color);
+  }
 
-    .contact-information h2 {
-        font-size: 1.05em;
-        font-weight: bold;
-        text-decoration: underline;
-        text-align: center;
-        color: white;
-    }
+  .contact-information h2 {
+    font-size: 1.05em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+  }
 
-    .contact-information ul {
-        padding: 30px;
-        margin-top: 15px;
-    }
+  .contact-information ul {
+    padding: 30px;
+    margin-top: 15px;
+  }
 
-    .contact-information img {
-        margin-right: 10px;
-        width: 7%;
-        height: 7%;
-    }
+  .contact-information img {
+    margin-right: 10px;
+    width: 7%;
+    height: 7%;
+  }
 
-    .contact-information li {
-        margin-top: 20px;
-        color: var(--primary-color);
-    }
+  .contact-information li {
+    margin-top: 20px;
+    color: var(--primary-color);
+  }
 }
