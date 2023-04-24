@@ -1,0 +1,25 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.menu {
+  margin-right: 25px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .menu {
+    display: none;
+  }
+}

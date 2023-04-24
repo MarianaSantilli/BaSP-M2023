@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/aside.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megarocket</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <img src="/assets/img/logo-megarcoket.png" alt="logo Megarocket" />
+          <div class="menu">
+            <img src="/assets/img/menu-icon.svg" alt="menu-icon" />
+          </div>
+    </header>
+<div class="general-conteiner">
+  <aside class="aside">
+    <nav>
+      <a href="#">
+        <img src="/assets/img/home-button.png" alt="home icon" />
+        Home
+      </a>
+      <a href="#">
+        <img src="/assets/img/sign-up.png" alt="Sign up" />
+        Sign Up
+      </a>
+      <a href="#">
+        <img src="/assets/img/sign-in.png" alt="Sign in" />
+        Sign In
+      </a>
+    </nav>
+    <div class="contact-information">
+      <h2>Contact Information</h2>
+      <ul>
+        <li class="email-information">
+          <img
+            src="/assets/img/mail-icon.svg"
+            alt="mail icon"
+          />infromation@untitled.tld
+        </li>
+        <li>
+          <img
+            src="/assets/img/phone-icon.svg"
+            alt="phone icon"
+          />(000)000-000
+        </li>
+        <li>
+          <img src="/assets/img/home-icon.svg" alt="home icon" />1234
+          Somewhere Road #8254 Nashville, TN
+        </li>
+      </ul>
+    </div>
+  </aside>
+    <div class="sub-conteiner">
+        <main>
+                <form action="log-in-form" method="post" id="form">
+                    <div class="form">
+                        <h2 class="titles">Log In</h2>
+                        <div class="inputs-form">
+                            <div class="email-adress">
+                                <label for="e-mail">Email Adress</label>
+                                <input
+                                    id="email"
+                                    placeholder="Email-adress"
+                                    type="text"
+                                >
+                            </div>
+                            <div id="invalid-email" class="email-error">
+                                Invalid Email
+                            </div>
+                            <div class="password">
+                                <label for="password">Password</label>
+                                <input
+                                    id="password"
+                                    placeholder="Password"
+                                    type="text"
+                                >
+                                <div id="invalid-password" class="password-error">
+                                    Invalid Password
+                                </div>
+                                <p> Remember me </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enter-button">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+                        <input type="submit" value="Log In"/>
+                    </div>
+                </form>
+        </main>
+        <footer>
+            <div>
+            <a href="#">
+                <img src="/assets/img/linkedin-icon.png" alt="Linkedin icon" />
+            </a>
+            <a href="#">
+                <img
+                src="/assets/img/facebook-icon.png"
+                alt="Facebook icon"
+                srcset=""
+                />
+            </a>
+            <a href="#">
+                <img
+                src="/assets/img/instagram-icon.png"
+                alt="Instagram icon"
+                />
+            </a>
+            </div>
+            <p>Copyright © 2022 Radium Rocket. All rights reserved.</p>
+        </footer>
+    </div>
+</div>
+<script src="../JS/login.js"></script>
+</body>
+</html>

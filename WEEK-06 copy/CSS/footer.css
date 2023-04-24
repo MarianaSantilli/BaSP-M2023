@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  background-color: #aace9b;
+}
+
+footer a {
+  padding: 0 6px 6px 6px;
+  border: none;
+  background-color: #aace9b;
+}
+
+footer img {
+  width: 50%;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7em;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 1025px) {
+  footer img {
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 0.9em;
+  }
+}

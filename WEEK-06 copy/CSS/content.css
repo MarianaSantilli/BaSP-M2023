@@ -1,0 +1,360 @@
+.welcome-web {
+  display: flex;
+  flex-direction: column;
+}
+.welcome-one {
+  margin-top: 20px;
+}
+
+.welcome-one h2 {
+  display: none;
+}
+
+.welcome-one p {
+  font-size: 1em;
+  text-align: center;
+}
+.welcome-two img {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.features-article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features h3 {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.features img {
+  width: 4%;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.features p {
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 0.7em;
+}
+
+.about-article-up {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.about-article-down {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px;
+}
+
+.about-megarocket img {
+  width: 100%;
+  align-self: center;
+}
+
+.about-megarocket p {
+  margin-top: 15px;
+  font-size: 0.7em;
+  text-align: left;
+}
+.about-megarocket button{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  padding: 6px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+
+.get-in-touch {
+  padding: 20px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.message textarea {
+  padding-bottom: 100px;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+.submit-left {
+  display: none;
+}
+
+.submit-btn {
+  margin-top: 18px;
+  display: flex;
+  justify-content: end;
+}
+.submit-btn input,
+.submit-left input {
+  width: 90px;
+  border: 1px solid #aace9b;
+  border-radius: 5px;
+  background-color: #aace9b;
+  color: var(--primary-color);
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-activities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.activities-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.activities-list li {
+  margin-right: 35px;
+  margin-bottom: 18px;
+}
+
+.member-table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.memberships-th {
+  padding: 10px;
+  width: 21%;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.th {
+  width: 35%;
+}
+
+.table-one {
+  background-color: #d9d9d9;
+}
+
+.table-white td {
+  padding: 10px;
+  width: 20px;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.table-white img {
+  margin-left: 15px;
+}
+
+.table-grey {
+  background-color: #d9d9d9;
+}
+.table-grey td {
+  padding: 10px;
+  width: 20px;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.table-grey img {
+  margin-left: 15px;
+}
+
+@media only screen and (min-width: 601px) {
+  .welcome-web {
+    flex-direction: unset;
+  }
+
+  .welcome-one h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #49a37b;
+  }
+  .welcome-one {
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .welcome-one p {
+    margin-top: 10px;
+  }
+  .welcome-two img {
+    width: 100%;
+  }
+
+  .features-article img {
+    width: 8%;
+  }
+
+  .features-article h3 {
+    font-size: 1em;
+  }
+
+  .features-article p {
+    font-size: 0.9em;
+    margin-left: 20px;
+  }
+
+  .right-articles {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .right-articles article {
+    width: 45%;
+    margin-top: 20px;
+  }
+  .about-article-up {
+    flex-direction: unset;
+  }
+  .about-article-up p {
+    margin-left: 30px;
+    text-align: right;
+  }
+
+  .about-article-down {
+    flex-direction: unset;
+  }
+
+  .about-article-down p {
+    margin-right: 30px;
+    text-align: left;
+  }
+  .about-megarocket img {
+    width: 50%;
+  }
+  .about-megarocket p {
+    font-size: 1em;
+  }
+  .about-megarocket button{
+    display: none;
+  }
+
+  form {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .personal-information {
+    width: 25%;
+  }
+
+  .contact-us {
+    width: 65%;
+  }
+
+  .submit-btn {
+    display: none;
+  }
+
+  .submit-left {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .activities {
+    flex-direction: unset;
+    width: 100%;
+  }
+
+  .activities img {
+    width: 70%;
+  }
+
+  .activities-list {
+    flex-direction: column;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 1em;
+    list-style: inside;
+  }
+
+  .column-activities {
+    display: block;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .features p {
+    font-size: 1em;
+  }
+
+.about-megarocket p {
+  font-size: 1.1em;
+}
+  .column-activities {
+    font-size: 1.5em;
+  }
+
+  .member-table {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .table-grey {
+    height: 50px;
+  }
+
+  .table-white {
+    height: 50px;
+  }
+
+  .memberships-th {
+    vertical-align: middle;
+    height: 50px;
+    padding: 0;
+  }
+}
